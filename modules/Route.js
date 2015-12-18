@@ -26,7 +26,8 @@ const Route = React.createClass({
     component,
     components,
     getComponent: func,
-    getComponents: func
+    getComponents: func,
+    getChildRoutes: func
   },
 
   /* istanbul ignore next: sanity check */
